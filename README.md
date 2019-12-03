@@ -33,7 +33,7 @@ Give your extension an icon. The icon is recommended to use less than 200x200 pi
 
 Then we will create a block, click on the `Add Function Block`. Then click on the `Add Text Variable` in the pop-up modal box and name the variable to `WORD`. Note that the variable name needs to be ASCII letters, and cannot contain special characters, and recommend all uppercase.
 
-Finally we have to change our block ID, the block ID needs to be unique in the current plugin. Here we will name the ID to `sayhello`.
+Finally we have to change our bplease load index.js into the extension oflock ID, the block ID needs to be unique in the current plugin. Here we will name the ID to `sayhello`.
 
 - Note that the **extension ID** also needs to be an ASCII string and cannot contain a special characters.
 
@@ -54,40 +54,6 @@ For standard scratch3, please load index.js into the extension of `scratch-vm`.
 
 -------------------
 
-The following steps are only valid for Kittenblock. You can download the latest Kittenblock at [https://www.kittenbot.cn/software/] (https://www.kittenbot.cn/software/).
 
-### Step7
-
-Please create a extension folder in the `extensions` directory of the Kittenblock root directory. Here we will name it `sayhello`. Copy the generated `index.js` to this directory.
-
-![image](https://user-images.githubusercontent.com/3390845/53679811-bbbae380-3d0c-11e9-9143-b6b262a0b3cf.png)
-
-### Step8
-
-Create a file named `extension.json` under the changed folder, which contains the following contents:
-
-	{
-	    "name": "Say Hello",
-	    "type": "scratch3",
-	    "image": "logo.png"
-	}
-
-Then find a picture you like as the main image of the extension, name it `logo.png`, and put it in the folder. Finally, our `sayhello` folder has the following three files.
-
-![image](https://user-images.githubusercontent.com/3390845/53679853-7d71f400-3d0d-11e9-872a-b20a57d59115.png)
-
-### Step9
-
-Open Kittenblock and select `Load External Plugin` in the lower left corner then find the plugin we just added.
-
-![image](https://user-images.githubusercontent.com/3390845/53679874-c164f900-3d0d-11e9-8391-6786c5200341.png)
-
-The final effect
-
-![image](https://user-images.githubusercontent.com/3390845/53679884-ec4f4d00-3d0d-11e9-95cf-55e9e0db67a4.png)
-
--------------------
-
-You only need to change the corresponding block execution code in `index.js` to implement the function of a block.
-
-Please keep tuned to our upcoming updates.
+# todo
+load index.js(uri) from url  params(`?extension_uri=https://github.com/xxx`)
